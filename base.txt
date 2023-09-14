@@ -1,9 +1,6 @@
 Nothing to see here
-<<<<<<< HEAD
 Well maybe there is at times
-=======
 
 Chapter 1 - Developing on VSCode
 
-*** Pending JayShree's Approval ***
->>>>>>> 2fc2040df8d692dede2c5bf921126f06efaa1e84
+*** Pending Jayshree's Approval***
