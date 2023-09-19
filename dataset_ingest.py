@@ -1,7 +1,8 @@
 
 class Dataset:
-    
-    type ='Dataset'
+    # Core OBJECT designed to manage all data ingestion - Needs some work though
+
+    type = 'Dataset'
     count = 0
     maximum_ingestable_size = 10
 
