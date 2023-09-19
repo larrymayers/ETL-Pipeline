@@ -27,9 +27,9 @@ for line in lines:
         
         # Append the INSERT statement to the list
         insert_statements.append(insert_statement)
-
-# Print or save the SQL INSERT statements
-#for statement in insert_statements:
- #   print(statement)
-        outfile.write(insert_statement)
+        
+        
+with open(output_file, 'w') as outfile:
+    for statement in insert_statements:
+        outfile.write(f"{statement}\n")
 
