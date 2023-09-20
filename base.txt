@@ -1,5 +1,6 @@
 Nothing to see here
+Well maybe there is at times
 
 Chapter 1 - Developing on VSCode
 
-*** Pending JayShree's Approval ***
+*** Pending Jayshree's Approval***
