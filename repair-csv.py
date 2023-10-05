@@ -38,9 +38,8 @@ if __name__ == "__main__":
     # ]
     
     headings = [
-       "Id","FirstName","LastName","Email","Phone","PasswordSalt","HashedPassword","UserIdForPassword"
+       "ID","Name","Email","Group","Phone","ZIP","Country","State/Province","Customer Since","Billing Address","Shipping Address","Date of Birth","Tax VAT Number","Gender","Street Address",City,"Billing Firstname","Billing Lastname","Account Lock","Rewards Balance"
     ]
-    
     try:
         repair_csv(input_file, output_file, headings)
         print(f"CSV file repaired and saved to '{output_file}'.")
