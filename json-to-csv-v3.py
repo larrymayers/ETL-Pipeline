@@ -43,6 +43,7 @@ def process_chunk(input_json_file_path, output_csv_file_path):
         print(f"An error occurred: {e}")
 
 if __name__ == "__main__":
+<<<<<<< HEAD
     input_dir = '.\\datasets\\Hjedd\\'
     output_dir = '.\\datasets\\Hjedd\\'
     
@@ -53,3 +54,15 @@ if __name__ == "__main__":
     output_csv_file_path = f'{output_dir}dump_update.csv'
     
     process_chunk(input_json_file_path, output_csv_file_path)
+=======
+    input_dir = '.\\datasets\\Verifications.io\\data\\processing\\chunks\\6\\'
+    output_dir = '.\\datasets\\Verifications.io\\data\\processing\\chunks_csv\\'
+    
+    os.makedirs(output_dir, exist_ok=True)
+
+    for num in range(1, 53):
+        input_json_file_path = f'{input_dir}chunk_{num}.json'
+        output_csv_file_path = f'{output_dir}chunk_{num}.csv'
+        
+        process_chunk(input_json_file_path, output_csv_file_path)
+>>>>>>> 5cd0d343e009506e65658a1f0c75b40f3ca44d96
